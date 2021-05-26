@@ -4,24 +4,14 @@ using UnityEngine;
 
 public class Gear : MonoBehaviour
 {
-    [SerializeField]
-    private const float radius = .05f;
-    public float Radius
-    {
-        get => radius;
-    }
-    public float RevolutionsPerSecond { get; set; }
-
+    private Rigidbody rigidbody = null;
     void Start()
     {
-        
+        rigidbody = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        if (RevolutionsPerSecond > 0f)
-        {
-            transform.Rotate(Vector3.up * 360.0f * RevolutionsPerSecond * Time.deltaTime);
-        }    
+        rigidbody.AddTorque(Vector3.up * Time.fixedDeltaTime * .5f);
     }
 }
