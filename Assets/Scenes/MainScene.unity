@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 537522694}
   - component: {fileID: 537522697}
   - component: {fileID: 537522696}
-  - component: {fileID: 537522695}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -156,19 +155,6 @@ Transform:
   m_Father: {fileID: 1357355237}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &537522695
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537522693}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &537522696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -339,7 +325,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357355231}
-  m_Mesh: {fileID: 1796861963}
+  m_Mesh: {fileID: 1909506399}
 --- !u!23 &1357355233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -359,7 +345,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2145109762}
+  - {fileID: 2117802394}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -558,13 +544,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1796861963
+--- !u!43 &1909506399
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh-6392
+  m_Name: ImageTargetMesh15772
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -576,7 +562,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.1, y: 0, z: 0.1}
+      m_Extent: {x: 0.034925, y: 0, z: 0.060325}
   m_Shapes:
     vertices: []
     shapes: []
@@ -709,8 +695,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: -0, y: 0, z: -0}
-    m_Extent: {x: 0, y: 0, z: 0}
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.034925, y: 0, z: 0.060325}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -722,7 +708,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &2145109762
+--- !u!21 &2117802394
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -731,7 +717,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'AstronautMaterial
 
-    -6396'
+    15782'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
