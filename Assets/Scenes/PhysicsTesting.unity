@@ -272,7 +272,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 941223658699564384, guid: 4d46be7d6bfe83e4fa39dd4878e61551, type: 3}
       propertyPath: m_Name
-      value: Gear 70mm 8 Teeth Variant
+      value: Gear 80mm 8 Teeth
       objectReference: {fileID: 0}
     - target: {fileID: 941223658699564385, guid: 4d46be7d6bfe83e4fa39dd4878e61551, type: 3}
       propertyPath: m_RootOrder
@@ -346,7 +346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6854001158171514460, guid: bc122b32a03b06d44a1af07dc8fc81d9, type: 3}
       propertyPath: m_Name
-      value: Gear 40mm 6 Teeth Variant (1)
+      value: Gear 50mm 5 Teeth
       objectReference: {fileID: 0}
     - target: {fileID: 6854001158171514461, guid: bc122b32a03b06d44a1af07dc8fc81d9, type: 3}
       propertyPath: m_RootOrder
@@ -403,7 +403,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6854001158171514460, guid: bc122b32a03b06d44a1af07dc8fc81d9, type: 3}
       propertyPath: m_Name
-      value: Gear 40mm 6 Teeth Variant
+      value: Gear 50mm 5 Teeth
       objectReference: {fileID: 0}
     - target: {fileID: 6854001158171514461, guid: bc122b32a03b06d44a1af07dc8fc81d9, type: 3}
       propertyPath: m_RootOrder
@@ -460,7 +460,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 941223658699564384, guid: 4d46be7d6bfe83e4fa39dd4878e61551, type: 3}
       propertyPath: m_Name
-      value: Gear 70mm 8 Teeth Variant (1)
+      value: Gear 80mm 8 Teeth
       objectReference: {fileID: 0}
     - target: {fileID: 941223658699564385, guid: 4d46be7d6bfe83e4fa39dd4878e61551, type: 3}
       propertyPath: m_RootOrder
@@ -561,7 +561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7596906094177622047, guid: dc4def196b9beb14499f8bc98b068897, type: 3}
       propertyPath: m_Name
-      value: Gear 100mm 12 Teeth Variant
+      value: Gear 100mm 10 Teeth
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4def196b9beb14499f8bc98b068897, type: 3}
