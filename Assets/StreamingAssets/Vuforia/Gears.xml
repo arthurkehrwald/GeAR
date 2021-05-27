@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="gear_60mm_6_teeth_drive" size="0.060000 0.063842" />
     <ImageTarget name="gear_80mm_8_teeth_a" size="0.080000 0.078958" />
     <ImageTarget name="gear_80mm_8_teeth_b" size="0.080000 0.079838" />
     <ImageTarget name="gear_100mm_10_teeth_a" size="0.100000 0.100000" />
     <ImageTarget name="gear_100mm_10_teeth_b" size="0.100000 0.100000" />
     <ImageTarget name="gear_80mm_8_teeth_c" size="0.080000 0.079273" />
-    <ImageTarget name="gear_60mm_6_teeth_drive" size="0.060000 0.063842" />
   </Tracking>
 </QCARConfig>
