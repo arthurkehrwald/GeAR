@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class Gear : MonoBehaviour
 {
     [SerializeField]
@@ -12,7 +11,8 @@ public class Gear : MonoBehaviour
         get => driveTorque;
         private set => driveTorque = value;
     }
-    private Rigidbody rb = null;
+    [SerializeField]
+    private Rigidbody wheelRigidbody = null;
 
     private static Gear referenceGear = null;
     private float[] prevSpeeds = new float[10];
@@ -22,7 +22,6 @@ public class Gear : MonoBehaviour
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody>();
         for (int i = 0; i < prevSpeeds.Length; i++)
         {
             prevSpeeds[i] = 0.0f;
@@ -39,7 +38,7 @@ public class Gear : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.AddTorque(Vector3.up * DriveTorque * Time.fixedDeltaTime);
+        wheelRigidbody.AddTorque(Vector3.up * DriveTorque * Time.fixedDeltaTime);
     }
 
     private IEnumerator CalcAvgSpeed()
@@ -47,7 +46,7 @@ public class Gear : MonoBehaviour
         yield return new WaitForEndOfFrame();
         while (true)
         {
-            prevSpeeds[speedIndex] = rb.angularVelocity.y / Mathf.PI / 2;
+            prevSpeeds[speedIndex] = wheelRigidbody.angularVelocity.y / Mathf.PI / 2;
             speedIndex++;
             if (speedIndex == prevSpeeds.Length)
             {
